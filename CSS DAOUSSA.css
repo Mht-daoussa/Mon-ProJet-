@@ -1,0 +1,222 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Bandeau supérieur */
+  .top-bar {
+    padding: 10px 0;
+    background-color: #007bff;
+  }
+  
+  .top-bar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .top-bar .social-icons a {
+    margin-right: 20px;
+  }
+  
+  /* Logo et navigation principale */
+  .logo {
+    width: 150px;
+    margin-right: 15px;
+  }
+  
+  /* Navigation Principale */
+  header .d-flex nav a {
+    font-size: 16px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  header .d-flex nav a:hover {
+    color: #007bff;
+  }
+  
+  header .d-flex .text-dark {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  header .d-flex .text-dark i {
+    margin-right: 5px;
+  }
+  
+  /* Barre de Navigation Secondaire */
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  
+  .bg-dark a {
+    color: white;
+  }
+  
+  .bg-dark a:hover {
+    color: #007bff;
+  }
+  
+  .bg-dark .container {
+    padding: 10px;
+  }
+  
+  /* Bannière de bienvenue */
+  .welcome-banner {
+    background-color: #007bff;
+    padding: 40px 0;
+  }
+  
+  .welcome-banner h2,
+  .welcome-banner p {
+    font-size: 18px;
+  }
+  
+  /* Styles du bouton S'entraîner */
+  #train-button {
+    font-size: 20px;
+    padding: 20px 40px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  #train-button i {
+    margin-right: 10px;
+  }
+  
+  /* Modal flottant */
+  .modal-content {
+    border-radius: 10px;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modal-body p {
+    font-size: 16px;
+  }
+  
+  .modal-footer {
+    text-align: right;
+  }
+  
+  .modal-footer button {
+    font-size: 16px;
+  }
+  
+  /* Custom Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 50%;
+    z-index: 1000;
+  }
+  
+  .modal .modal-dialog {
+    border-radius: 5px;
+  }
+  
+  .modal.show {
+    display: block;
+  }
+  
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  /* Hover Effect on Train Button */
+  #train-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Close Button */
+  .btn-close {
+    cursor: pointer;
+  }
+  
+  /* Style des icônes de la barre de navigation */
+  .top-bar .d-flex a i,
+  header .d-flex nav a i,
+  .bg-dark .container a i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .top-bar .d-flex a:hover i,
+  header .d-flex nav a:hover i,
+  .bg-dark .container a:hover i {
+    color: #ffc107;
+  }
+  
+  /* Styles pour les icônes sociales */
+  .top-bar .d-flex .social-icons a i {
+    font-size: 20px;
+  }
+  
+  .top-bar .d-flex .social-icons a:hover i {
+    color: #ffc107;
+  }
+  
+  /* Barre de navigation secondaire */
+  .bg-dark .container {
+    padding: 10px;
+  }
+  
+  /* Styles du bouton S'entraîner */
+  #train-button i {
+    font-size: 22px;
+  }
+  
+  /* Style du logo */
+  .logo {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* Modification des icônes de l'en-tête */
+  header .d-flex .text-dark i {
+    font-size: 20px;
+  }
+  
+  header .d-flex .text-dark {
+    font-size: 16px;
+  }
+  
+  /* Ajout d'une bordure arrondie pour les boutons de navigation */
+  .navbar .nav-item {
+    border-radius: 5px;
+  }
+  
+  /* Ajustement des icônes dans les boutons */
+  button i {
+    font-size: 18px;
+  }
+  
+  /* Custom Modal */
+  .modal-content {
+    border-radius: 8px;
+  }
+  
+  /* Personnalisation des icônes de social media */
+  .top-bar .d-flex .social-icons a i {
+    font-size: 22px;
+  }

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCF Canada</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS DAOUSSA.css">
+</head>
+<body>
+  <!-- Bandeau Supérieur -->
+  <div class="top-bar bg-primary text-white py-1">
+    <div class="container d-flex justify-content-between align-items-center">
+      <span>Bienvenue sur la plateforme TCF Canada</span>
+      <div class="d-flex align-items-center">
+        <!-- Liens supplémentaires -->
+        <a href="FORMATIONS.html" class="text-white text-decoration-none me-3"><i class="bi bi-journal-text"></i> Formations</a>
+        <a href="TARIFS.html" class="text-white text-decoration-none me-3"><i class="bi bi-tag"></i> Tarifs</a>
+        <a href="#" class="text-white text-decoration-none"><i class="bi bi-envelope"></i> Contactez-nous</a>
+        <!-- Icônes des réseaux sociaux -->
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-youtube"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Principale -->
+  <header class="bg-light py-2 border-bottom">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="c:\Users\Hp\Documents\logo tcf.jpg" alt="Logo TCF Canada" class="logo me-2" style="width: 150px;">
+        <nav class="d-flex gap-3">
+          <a href="#" class="text-dark text-decoration-none"><i class="bi bi-pencil"></i> EXPRESSION ÉCRITE</a>
+          <a href="#" class="text-dark text-decoration-none"><i class="bi bi-mic"></i> EXPRESSION ORALE</a>
+          <a href="#" class="text-dark text-decoration-none"><i class="bi bi-book"></i> COMPRÉHENSION ÉCRITE</a>
+          <a href="#" class="text-dark text-decoration-none"><i class="bi bi-headphones"></i> COMPRÉHENSION ORALE</a>
+        </nav>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <span class="text-dark"><i class="bi bi-person-circle"></i> Bonjour, Mahamat Ahmat Daoussa</span>
+        <a href="CONNEXION.html" class="text-dark text-decoration-none"><i class="bi bi-box-arrow-right"></i> Se déconnecter</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bannière de Bienvenue -->
+  <section class="welcome-banner text-center text-white py-4">
+    <h2 class="mb-2">Bonjour MAHAMAT AHMAT DAOUSSA,</h2>
+    <p>Member depuis  le 02 décembre 2024</p>
+  </section>
+
+  <!-- Barre de Navigation Secondaire -->
+  <div class="bg-dark text-white py-2">
+    <div class="container d-flex justify-content-center gap-4">
+      <a href="HTML DAOUSSA.html" class="text-white text-decoration-none"><i class="bi bi-house-door"></i> Bienvenue</a>
+      <a href="#" class="text-white text-decoration-none"><i class="bi bi-person"></i> Profile Details</a>
+      <a href="#" class="text-white text-decoration-none"><i class="bi bi-clipboard"></i> Subscriptions</a>
+      <a href="#" class="text-white text-decoration-none"><i class="bi bi-cart"></i> Orders</a>
+      <a href="CONNEXION.html" class="text-white text-decoration-none"><i class="bi bi-box-arrow-right"></i> LogOut</a>
+    </div>
+  </div>
+
+  <!-- Contenu Principal -->
+  <main class="container text-center my-5">
+    <h1 class="mb-4">Bienvenue</h1>
+    <button id="train-button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#trainModal">
+      <i class="bi bi-arrow-right-circle me-2"></i>S'entraîner
+    </button>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal d-none">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content text-center">
+        <div class="modal-header">
+          <h5 class="modal-title">S'entraîner</h5>
+          <button type="button" class="btn-close" id="close-modal"></button>
+        </div>
+        <div class="modal-body">
+          <p>Prêt à vous entraîner ? Cliquez ici pour commencer !</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer avec Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <footer class="bg-primary text-white py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Les pages -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Les pages</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="HTML JAVA.html" class="text-white text-decoration-none"><i class="bi bi-house"></i> Page d'accueil</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="bi bi-book"></i> Compréhension écrite</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="bi bi-headphones"></i> Compréhension orale</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="bi bi-pencil-square"></i> Expression écrite</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none"><i class="bi bi-chat"></i> Expression orale</a></li>
+            <li><a href="#" class="text-white text-decoration-none"><i class="bi bi-arrow-counterclockwise"></i> Politique de retour et de remboursement</a></li>
+          </ul>
+        </div>
+
+        <!-- Paramètres du compte -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Paramètre du compte</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="HTML DAOUSSA.html" class="text-white text-decoration-none"><i class="bi bi-person"></i> Mon compte</a></li>
+            <li><a href="CONNEXION.html" class="text-white text-decoration-none"><i class="bi bi-box-arrow-right"></i> Se déconnecter</a></li>
+          </ul>
+        </div>
+
+        <!-- Réseaux sociaux et À propos de nous -->
+        <div class="col-md-3 mb-4">
+          <h5 class="fw-bold">Nos Réseaux Sociaux</h5>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white"><i class="bi bi-youtube fs-4"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-facebook fs-4"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-whatsapp fs-4"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram fs-4"></i></a>
+          </div>
+          <h5 class="fw-bold mt-4">À propos de nous</h5>
+          <p class="text-white-50">Plateforme spécialisée dans la préparation au TCF Canada. Tests à conditions réelles, sujets récents.</p>
+        </div>
+
+        <!-- Moyens de paiement -->
+        <div class="col-md-3 mb-4 text-center">
+          <h5 class="fw-bold">Nous acceptons</h5>
+          <div class="bg-white p-3 rounded">
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+              <img src="c:\Users\tahir\Downloads\logo visa.png" alt="Visa" width="50">
+              <img src="c:\Users\tahir\Downloads\logo paypal.png" alt="PayPal" width="50">
+              <img src="c:\Users\tahir\Downloads\logo wester.jpeg" alt="Western Union" width="50">
+              <img src="c:\Users\tahir\Downloads\logo orange.jpeg" alt="Orange Money" width="50">
+              <img src="c:\Users\tahir\Downloads\logo mtn.jpeg" alt="MTN Money" width="50">
+            </div>
+          </div>
+          <button class="btn btn-light mt-3">Cliquez ici</button>
+        </div>
+      </div>
+      <div class="text-center text-white-50 mt-4">
+        TCF CA TEST © 2024 | Tous les droits sont réservés.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
